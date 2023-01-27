@@ -181,6 +181,10 @@ img {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-form-checkbox-label:hover + .checkbox-icon,
+.modal-form-checkbox-label:focus + .checkbox-icon {
+  fill: #4d5ae5;
+}
 .privacy-text {
   font-size: 12px;
   line-height: 1.33;
